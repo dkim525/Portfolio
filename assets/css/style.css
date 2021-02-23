@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(207, 182, 150);
+}
+
+.header  {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(156, 156, 156);
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header ul {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(156, 156, 156) ;
+}
+
+.footer ul {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+.content {
+    color:  #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about-me img{
+   max-height: 200px;
+}
+
+.coding-portfolio img { 
+    max-height: 200px;
+}
+
+.nfl{
+    color: #ffffff;
+    background-color:indianred
+}
